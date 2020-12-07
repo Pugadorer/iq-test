@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <h1>Quiz</h1>
+        <form onsubmit="abfragen(this.frage1.value, this.frage2.value, this.frage3.value, this.frage4.value, this.frage5.value); return false;">
+            <p>Brille?</p>
+            <input type="text" id="frage1" name="frage1" autocomplete="off" required>
+            <p>Bestes Bier? (Tipp: Plastik + Lidl)</p>
+            <input type="text" id="frage2" name="frage2" autocomplete="off" required>
+            <p>Bist du schwuchtesexuell?</p>
+            <input type="text" id="frage3" name="frage3" autocomplete="off" required>
+            <p>Diese Aussage ist falsch</p>
+            <input type="text" id="frage4" name="frage4" autocomplete="off"  required>
+            <p>Wer ist der beste infon Mitarbeiter?</p>  
+            <input type="text" id="frage5" name="frage5"  autocomplete="off" required><br><br>
+            <input type="submit" value="Abgeben">        
+        </form> 
+    </body>
+</html>
