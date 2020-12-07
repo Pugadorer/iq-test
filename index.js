@@ -52,4 +52,6 @@ function abfragen(frage1,frage2,frage3,frage4,frage5){
         window.open("https://www.youtube.com/watch?v=hnYwsXoXZlw");
     }    
 }
+
+// 
             
